@@ -15,9 +15,7 @@ Step 1: Move the data from the local filesystem, into HDFS.
 >sudo -u hdfs hadoop fs -mkdir /user/hive/warehouse/original_access_logs
 > sudo -u hdfs hadoop fs -copyFromLocal /opt/examples/log_files/access.log.2 /user/hive/warehouse/original_access_logs
 ```
-
-
-![screenshot2](https://user-images.githubusercontent.com/33071134/48032309-c4175f00-e11c-11e8-86f0-60f0da9f0e89.png)
+![screenshot1](https://user-images.githubusercontent.com/33071134/48032774-8e737580-e11e-11e8-91fc-5b2e8cf3800d.png)
 
 Step 2: Verify the data in HDFS by excuting the command below.
 ```
