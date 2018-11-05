@@ -16,7 +16,8 @@ Step 1: Move the data from the local filesystem, into HDFS.
 > sudo -u hdfs hadoop fs -copyFromLocal /opt/examples/log_files/access.log.2 /user/hive/warehouse/original_access_logs
 ```
 
-![Screenshot2.png]
+
+![screenshot2](https://user-images.githubusercontent.com/33071134/48032309-c4175f00-e11c-11e8-86f0-60f0da9f0e89.png)
 
 Step 2: Verify the data in HDFS by excuting the command below.
 ```
@@ -84,9 +85,9 @@ group by url order by count(*) desc;
 
 
 
-## Data Chart for the obtained partitions
+## Query running in the Hue
 
-![Screenshot3.png]
+![screenshot3](https://user-images.githubusercontent.com/33071134/48032333-dc877980-e11c-11e8-84d7-c756533f207d.png)
 
 ## References:
 
