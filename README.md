@@ -1,5 +1,7 @@
 ## Introduction
-Impala is using the SQL Query Engine for processing huge volumes of data and it runs directly with Hadoop. It provides High performance and low latency. We can easily access data stored in HDFS with simple SQL Queries. In this workshop we have used the impala Query Editor to see the tables and it run very fast than than hue. In this workshop we would be using impala to view the data tables using the command "invalidate metadata;" which is basically elling Impala that some tables have been created through a different tool.  
+Impala is using the SQL Query Engine for processing huge volumes of data and it runs directly with Hadoop. It provides High performance and low latency. We can easily access data stored in HDFS with simple SQL Queries. In this workshop we have used the impala Query Editor to see the tables and it run very fast than than hue. In this workshop we would be using impala to view the data tables using the command "invalidate metadata;" which is basically elling Impala that some tables have been created through a different tool. 
+
+The term “Regular Expression” is used to describe a pattern-matching technique that is used into many different environments. A regular expression (commonly called regex, reg exp, or RE, often pronounced rej-exp or rej-ex) can use a simple set of characters with special meanings (called metacharacters) to test for matches quickly and easily. 
 
 ## Prerequsites
 1. Have Cloudera Quickstart installed in you systems.
