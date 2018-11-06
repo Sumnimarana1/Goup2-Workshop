@@ -93,4 +93,14 @@ group by url order by count(*) desc;
 
 2. https://www.cloudera.com/developers/get-started-with-hadoop-tutorial/exercise-2.html
 
+3. https://www.tutorialspoint.com/impala/impala_overview.htm​
+
+5. https://www.quora.com/What-is-impala​
+
+6. https://www.youtube.com/watch?v=nRm3NbuS0IA​
+
+7. https://www.youtube.com/watch?v=_bd8bOx0n6U&t=228sttps://www.youtube.com/watch?v=nRm3NbuS0IA​
+
+8. https://www.youtube.com/watch?v=_bd8bOx0n6U&t=228s
+
 
