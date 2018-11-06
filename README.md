@@ -6,6 +6,8 @@ Hive gives SQLlike abstraction queries(HiveQL) into underlying layer without the
 Impala is using the SQL Query Engine for processing huge volumes of data and it runs directly with Hadoop. It provides High performance and low latency. We can easily access data stored in HDFS with simple SQL Queries. In this workshop we have used the impala Query Editor to see the tables and it run very fast than than hue. In this workshop we would be using impala to view the data tables using the command "invalidate metadata;" which is basically elling Impala that some tables have been created through a different tool. 
 ### Regular Expression
 The term “Regular Expression” is used to describe a pattern-matching technique that is used into many different environments. A regular expression (commonly called regex, reg exp, or RE, often pronounced rej-exp or rej-ex) can use a simple set of characters with special meanings (called metacharacters) to test for matches quickly and easily. 
+### Hue
+Hue is an open source web user interface for Hadoop. It provides web-based access to CDH components and a platform for building custom applications. It is used for browsing, visualizing data and end user query access and its applications are scheduling jobs and worksflows, dashboards to dynamically interact and visualize data with SQL.
 
 ## Prerequsites
 1. Have Cloudera Quickstart installed in you systems.
