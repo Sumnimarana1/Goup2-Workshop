@@ -3,7 +3,7 @@
 A data warehouse infrastructure tool to process structured data in Hadoop.It resides on top of the Hadoop system to make querying and analyzing easy.Hive gives an SQL-like interface to query data stored in various databases and file systems that integrate with Hadoop.
 Hive gives SQLlike abstraction queries(HiveQL) into underlying layer without the need to implement queries in low-level Java API.
 ### Impala
-Impala is using the SQL Query Engine for processing huge volumes of data and it runs directly with Hadoop. It provides High performance and low latency. We can easily access data stored in HDFS with simple SQL Queries. In this workshop we have used the impala Query Editor to see the tables and it run very fast than than hue. In this workshop we would be using impala to view the data tables using the command "invalidate metadata;" which is basically elling Impala that some tables have been created through a different tool. 
+Impala is using the SQL Query Engine for processing huge volumes of data and it runs directly with Hadoop. It provides High performance and low latency. We can easily access data stored in HDFS with simple SQL Queries. In this workshop we have used the impala Query Editor to see the tables and it ran very fast than than hue. In this workshop we would be using impala to view the data tables using the command "invalidate metadata;" which is basically telling Impala that some tables have been created through a different tool. 
 ### Regular Expression
 The term “Regular Expression” is used to describe a pattern-matching technique that is used into many different environments. A regular expression (commonly called regex, reg exp, or RE, often pronounced rej-exp or rej-ex) can use a simple set of characters with special meanings (called metacharacters) to test for matches quickly and easily. 
 ### Hue
@@ -12,7 +12,7 @@ Hue is an open source web user interface for Hadoop. It provides web-based acces
 ## Prerequsites
 1. Have Cloudera Quickstart installed in you systems.
 2. Make sure you are logged in at Cloudera Manager. 
-3. Varify folllowing services are up- impala, Hive, Hue, HDFS
+3. Verify folllowing services are up- impala, Hive, Hue, HDFS.
 
 ## Aggregate:
 
@@ -30,7 +30,7 @@ Step 2: Verify the data in HDFS by excuting the command below.
 >hadoop fs -ls /user/hive/warehouse/original_access_logs
 ```
 
-Step 3: Login to Hue and open the and open the Hive Query Editor app and paste the following command.
+Step 3: Login to Hue and open the Hive Query Editor app and paste the following command.
 ```
 CREATE EXTERNAL TABLE intermediate_access_logs (
     ip STRING,
