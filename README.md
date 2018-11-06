@@ -1,6 +1,10 @@
 ## Introduction
+### Hive
+A data warehouse infrastructure tool to process structured data in Hadoop.It resides on top of the Hadoop system to make querying and analyzing easy.Hive gives an SQL-like interface to query data stored in various databases and file systems that integrate with Hadoop.
+Hive gives SQLlike abstraction queries(HiveQL) into underlying layer without the need to implement queries in low-level Java API.
+### Impala
 Impala is using the SQL Query Engine for processing huge volumes of data and it runs directly with Hadoop. It provides High performance and low latency. We can easily access data stored in HDFS with simple SQL Queries. In this workshop we have used the impala Query Editor to see the tables and it run very fast than than hue. In this workshop we would be using impala to view the data tables using the command "invalidate metadata;" which is basically elling Impala that some tables have been created through a different tool. 
-
+### Regular Expression
 The term “Regular Expression” is used to describe a pattern-matching technique that is used into many different environments. A regular expression (commonly called regex, reg exp, or RE, often pronounced rej-exp or rej-ex) can use a simple set of characters with special meanings (called metacharacters) to test for matches quickly and easily. 
 
 ## Prerequsites
