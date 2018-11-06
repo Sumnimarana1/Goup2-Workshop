@@ -64,7 +64,9 @@ LOCATION '/user/hive/warehouse/tokenized_access_logs';
 Step 4: Run the command below. This command is using a MapReduce job, just like our Sqoop import did, to transfer the data from one table to the other in parallel.
 
 ```
-ADD JAR {{lib_dir}}/hive/lib/hive-contrib.jar;
+ADD JAR {{lib_dir}}/hive/lib/hive-contrib.jar; 
+
+USE-- ADD JAR /usr/lib/hive/lib/hive-contrib.jar; 
 
 INSERT OVERWRITE TABLE tokenized_access_logs SELECT * FROM intermediate_access_logs;
 ```
